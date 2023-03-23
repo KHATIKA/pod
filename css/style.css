@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
+
+body {
+    position: relative;
+    background-color: #121725;
+    height: 657px;
+}
+
+.background {
+    position: absolute;
+    opacity: 0.2;
+    margin-top: -180px;
+    width: 100%;
+}
+
+.background-tablet,
+.pattern,
+.background-desktop {
+    display: none;
+}
+ 
+.maybe-header {
+    width: 135px;
+    height: 56px;
+    display: flex;
+    margin: 62px auto;
+}
+
+.publish-h1 {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #54E6AF;
+    margin: 16px auto;
+    width: 327px;
+}
+
+.span {
+    color: white;
+}
+
+.upload-p {
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #C2CBE5;
+    margin-bottom: 33px;
+    width: 327px;
+    display: flex;
+    margin: auto;
+}
+
+.photo-container {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin: 19px auto;
+}
+
+.photo {
+    height: 17px
+}
+
+.mail-validation {
+    display: flex;
+    flex-direction: column;
+}
+
+#mail {
+    background: #2C344B;
+    border-radius: 28px;
+    width: 294px;
+    height: 46px;
+    border: none;
+    display: flex;
+    margin: auto;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    margin-top: 48px;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.button {
+    background: #54E6AF;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+    border-radius: 28px;
+    width: 326px;
+    height: 46px;
+    border: none;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #121725;
+}
+
+@media screen and (min-width: 768px) {
+    .big {
+        margin: auto;
+    }
+
+    .maybe-header {
+        margin-left: 5%;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .fiery {
+        margin-top: -200px;
+        margin-left: 377px;
+    }
+
+    .background-tablet {
+        width: 65%;
+        display: block;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .little {
+        background-color: #121725;
+        width: 635px;
+        height: 509px;
+        margin-top: 350px;
+        margin-left: 30px;
+        position: relative;
+        padding-top: 53px;
+    }
+
+    .publish-h1 {
+        width: 635px;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: start;
+    }
+
+    .upload-p {
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 0px;
+        text-align: start;
+    }
+
+    .photo-container {
+        margin-top: 150px;
+        margin-left: -180px;
+        gap: 30px;
+    }
+
+    .photo {
+        height: 20px;
+    }
+
+    .mail-validation {
+        flex-direction: row;
+        position: absolute;
+        margin-top: -200px;
+    }
+
+    .button {
+        width: 162px;
+        margin-bottom: 6px;
+        height: 46px;
+        position: absolute;
+        margin-left: 294px;
+        margin-top: 55px;
+    }
+
+    #mail {
+        width: 427px;
+        margin-bottom: 0px;
+        height: 56px;
+        position: relative;
+    }
+
+    .pattern {
+        display: block;
+        margin-left: 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body{
+        height: 1000px;
+    }
+
+    .background-desktop {
+        display: block;
+        width: 1100px;
+        margin-top: 180px;
+        margin-left: 50px;
+    }
+
+    .background,
+    .background-tablet {
+        display: none;
+    }
+
+    .little {
+        width: 723px;
+        margin-top: -550px;
+        margin-left: 100px;
+    }
+
+    .publish-h1 {
+        font-size: 52px;
+        line-height: 62px;
+        width: 665px;
+        margin-left: -4px;
+    }
+
+    .photo-container {
+        margin-left: -270px;
+    }
+
+    .pattern {
+        margin-left: 1300px;
+        margin-top: -60px;
+    }
+}
